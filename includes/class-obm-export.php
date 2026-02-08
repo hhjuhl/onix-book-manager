@@ -37,7 +37,7 @@ class OBM_Export {
         }
 
         $filename_identifier = sanitize_title( $isbn );
-        $date_stamp = date('Ymd');
+        $date_stamp = current_time('Ymd');
 
         if ( ob_get_length() ) ob_clean();
 
@@ -57,7 +57,7 @@ class OBM_Export {
         $xml->startElement('Sender');
         $xml->writeElement('SenderName', get_bloginfo('name'));
         $xml->endElement();
-        $xml->writeElement('SentDateTime', date('Ymd\THis'));
+        $xml->writeElement('SentDateTime', gmdate('Ymd\THis\Z'));
         $xml->endElement();
 
         if ( $product->is_type('variation') ) {
@@ -252,7 +252,7 @@ class OBM_Export {
                     $xml->writeElement('PublishingDateRole', '01');
                     $xml->startElement('Date');
                         $xml->writeAttribute('dateformat', '00');
-                        $xml->text(date('Ymd', strtotime($pub_date)));
+                        $xml->text(gmdate('Ymd', strtotime($pub_date)));
                     $xml->endElement(); 
                 $xml->endElement(); 
             }
