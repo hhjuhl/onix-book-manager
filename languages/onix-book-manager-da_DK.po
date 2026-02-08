@@ -1,0 +1,87 @@
+# Danish translation for ONIX Book Manager
+msgid ""
+msgstr ""
+"Project-Id-Version: ONIX Book Manager 1.7.0\n"
+"Language: da_DK\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-02-04 14:35+0000\n"
+
+msgid "ONIX Book Manager requires WooCommerce to be installed and active."
+msgstr "ONIX Book Manager kræver at WooCommerce er installeret og aktivt."
+
+msgid "Book (Multi-Format)"
+msgstr "Bog (Flere formater)"
+
+msgid "Book Metadata"
+msgstr "Bog-metadata"
+
+msgid "ISBN-13"
+msgstr "ISBN-13"
+
+msgid "Will sync to SKU automatically."
+msgstr "Synkroniseres automatisk til SKU."
+
+msgid "Publisher Name"
+msgstr "Forlagsnavn"
+
+msgid "Thema Code"
+msgstr "Thema-kode"
+
+msgid "BIC Code"
+msgstr "BIC-kode"
+
+msgid "ONIX Export"
+msgstr "ONIX-eksport"
+
+msgid "Missing ISBN/SKU."
+msgstr "Mangler ISBN/SKU."
+
+msgid "Missing \"Format\" attribute."
+msgstr "Mangler \"Format\" attribut."
+
+msgid "Missing \"Filformat\" (EPUB/PDF)."
+msgstr "Mangler \"Filformat\" (EPUB/PDF)."
+
+msgid "Export as ONIX"
+msgstr "Eksporter som ONIX"
+
+msgid "Last exported:"
+msgstr "Sidst eksporteret:"
+
+msgid "Inherited from ISBN"
+msgstr "Nedarvet fra ISBN"
+
+msgid "ONIX Export Manager"
+msgstr "Administration af ONIX-eksport"
+
+msgid "Title & Format"
+msgstr "Titel & Format"
+
+msgid "ISBN / SKU"
+msgstr "ISBN / SKU"
+
+msgid "Validation"
+msgstr "Validering"
+
+msgid "Actions"
+msgstr "Handlinger"
+
+msgid "Valid"
+msgstr "Valideret"
+
+msgid "Edit"
+msgstr "Rediger"
+
+msgid "No books found."
+msgstr "Ingen bøger fundet."
+
+msgid "Bulk Export"
+msgstr "Samlet eksport"
+
+#, php-format
+msgid "Items ready for export: %d"
+msgstr "Antal emner klar til eksport: %d"
+
+msgid "Download Full ONIX 3.0 Feed"
+msgstr "Download komplet ONIX 3.0 feed"

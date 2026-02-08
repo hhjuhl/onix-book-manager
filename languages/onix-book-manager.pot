@@ -1,0 +1,120 @@
+# Copyright (C) 2026 Your Publishing House
+# This file is distributed under the same license as the ONIX Book Manager package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ONIX Book Manager 1.7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-04 14:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: onix-book-manager.php:23
+msgid "ONIX Book Manager requires WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-obm-product.php:17
+msgid "Book (Multi-Format)"
+msgstr ""
+
+#: includes/class-obm-product.php:26
+msgid "Book Metadata"
+msgstr ""
+
+#: includes/class-obm-product.php:36
+msgid "ISBN-13"
+msgstr ""
+
+#: includes/class-obm-product.php:37
+msgid "Will sync to SKU automatically."
+msgstr ""
+
+#: includes/class-obm-product.php:40
+msgid "Publisher Name"
+msgstr ""
+
+#: includes/class-obm-product.php:41
+msgid "Thema Code"
+msgstr ""
+
+#: includes/class-obm-product.php:42
+msgid "BIC Code"
+msgstr ""
+
+#: includes/class-obm-admin.php:16
+#: includes/class-obm-admin.php:17
+msgid "ONIX Export"
+msgstr ""
+
+#: includes/class-obm-admin.php:41
+msgid "Missing ISBN/SKU."
+msgstr ""
+
+#: includes/class-obm-admin.php:47
+msgid "Missing \"Format\" attribute."
+msgstr ""
+
+#: includes/class-obm-admin.php:53
+msgid "Missing \"Filformat\" (EPUB/PDF)."
+msgstr ""
+
+#: includes/class-obm-admin.php:65
+#: includes/class-obm-admin.php:79
+msgid "Export as ONIX"
+msgstr ""
+
+#: includes/class-obm-admin.php:81
+msgid "Last exported:"
+msgstr ""
+
+#: includes/class-obm-admin.php:97
+msgid "Inherited from ISBN"
+msgstr ""
+
+#: includes/views/admin-export-view.php:10
+msgid "ONIX Export Manager"
+msgstr ""
+
+#: includes/views/admin-export-view.php:15
+msgid "Title & Format"
+msgstr ""
+
+#: includes/views/admin-export-view.php:16
+msgid "ISBN / SKU"
+msgstr ""
+
+#: includes/views/admin-export-view.php:17
+msgid "Validation"
+msgstr ""
+
+#: includes/views/admin-export-view.php:18
+msgid "Actions"
+msgstr ""
+
+#: includes/views/admin-export-view.php:36
+msgid "Valid"
+msgstr ""
+
+#: includes/views/admin-export-view.php:44
+msgid "Edit"
+msgstr ""
+
+#: includes/views/admin-export-view.php:50
+msgid "No books found."
+msgstr ""
+
+#: includes/views/admin-export-view.php:55
+msgid "Bulk Export"
+msgstr ""
+
+#: includes/views/admin-export-view.php:56
+#, php-format
+msgid "Items ready for export: %d"
+msgstr ""
+
+#: includes/views/admin-export-view.php:57
+msgid "Download Full ONIX 3.0 Feed"
+msgstr ""
