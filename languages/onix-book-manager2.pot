@@ -1,0 +1,223 @@
+# Copyright (C) 2026 ONIX Book Manager for WooCommerce
+# This file is distributed under the same license as the ONIX Book Manager for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ONIX Book Manager for WooCommerce 0.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/github\n"
+"POT-Creation-Date: 2026-02-09 15:41:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-obm-admin.php:15 includes/class-obm-admin.php:16
+msgid "ONIX Export"
+msgstr ""
+
+#: includes/class-obm-admin.php:45
+msgid "Missing ISBN."
+msgstr ""
+
+#: includes/class-obm-admin.php:51
+msgid "Missing \"Format\" attribute."
+msgstr ""
+
+#: includes/class-obm-admin.php:57
+msgid "Missing \"Forfatter\" attribute."
+msgstr ""
+
+#: includes/class-obm-admin.php:68 includes/class-obm-product.php:247
+msgid "Export as ONIX"
+msgstr ""
+
+#: includes/class-obm-export - Kopi.php:16 includes/class-obm-export.php:20
+msgid "You do not have permission to export data."
+msgstr ""
+
+#: includes/class-obm-product.php:98 includes/views/admin-export-view.php:15
+msgid "ISBN"
+msgstr ""
+
+#: includes/class-obm-product.php:102 includes/class-obm-product.php:337
+msgid "Publisher"
+msgstr ""
+
+#: includes/class-obm-product.php:106 includes/class-obm-product.php:355
+msgid "Publication Date"
+msgstr ""
+
+#: includes/class-obm-product.php:110
+msgid "Page Count"
+msgstr ""
+
+#: includes/class-obm-product.php:114
+msgid "Thema Category"
+msgstr ""
+
+#: includes/class-obm-product.php:160
+msgid "ONIX XML Export for this variant"
+msgstr ""
+
+#: includes/class-obm-product.php:161
+msgid "Download ONIX XML"
+msgstr ""
+
+#: includes/class-obm-product.php:167
+msgid "Export failed: Missing ISBN/SKU."
+msgstr ""
+
+#: includes/class-obm-product.php:207
+msgid "Hardback"
+msgstr ""
+
+#: includes/class-obm-product.php:207
+msgid "Paperback"
+msgstr ""
+
+#: includes/class-obm-product.php:207
+msgid "E-book"
+msgstr ""
+
+#: includes/class-obm-product.php:216
+msgid "Book (Multi-Format)"
+msgstr ""
+
+#: includes/class-obm-product.php:277
+msgid "Inherited from Book Metadata tab"
+msgstr ""
+
+#: includes/class-obm-product.php:314
+msgid "Book Metadata"
+msgstr ""
+
+#: includes/class-obm-product.php:326
+msgid "ONIX Bibliographic Data"
+msgstr ""
+
+#: includes/class-obm-product.php:331
+msgid "ISBN-13"
+msgstr ""
+
+#: includes/class-obm-product.php:346
+msgid "Thema Code"
+msgstr ""
+
+#: includes/class-obm-product.php:347
+msgid "Browse Thema Categories"
+msgstr ""
+
+#: includes/class-obm-product.php:363
+msgid "Number of Pages"
+msgstr ""
+
+#: includes/class-obm-product.php:368
+msgid "Note: »Author« and »Format« is set using the Attributes panel"
+msgstr ""
+
+#: includes/views/admin-export-view.php:9
+msgid "ONIX Export Manager"
+msgstr ""
+
+#: includes/views/admin-export-view.php:14
+msgid "Title & Format"
+msgstr ""
+
+#: includes/views/admin-export-view.php:16
+msgid "Validation"
+msgstr ""
+
+#: includes/views/admin-export-view.php:17
+msgid "Actions"
+msgstr ""
+
+#: includes/views/admin-export-view.php:41
+msgid "Valid"
+msgstr ""
+
+#: includes/views/admin-export-view.php:49
+msgid "Edit"
+msgstr ""
+
+#: includes/views/admin-export-view.php:55
+msgid "No books found."
+msgstr ""
+
+#: includes/views/admin-export-view.php:61
+msgid "Bulk Export"
+msgstr ""
+
+#: includes/views/admin-export-view.php:62
+msgctxt "%d is amount of books ready for export"
+msgid "Items ready for export: %d"
+msgstr ""
+
+#: includes/views/admin-export-view.php:65
+msgid "Download Full ONIX Feed"
+msgstr ""
+
+#: t/data/add-textdomain-0-result.php:3 t/data/add-textdomain-0-result.php:4
+#: t/data/add-textdomain-0.php:3 t/data/add-textdomain-0.php:4
+msgid "Hello World"
+msgstr ""
+
+#: t/data/add-textdomain-0-result.php:5 t/data/add-textdomain-0.php:5
+msgid "Single"
+msgid_plural "Plural"
+msgstr[0] ""
+msgstr[1] ""
+
+#: t/data/add-textdomain-0-result.php:6 t/data/add-textdomain-0.php:6
+msgid "Single Noop"
+msgid_plural "Plural Noop"
+msgstr[0] ""
+msgstr[1] ""
+
+#: t/data/add-textdomain-0-result.php:7 t/data/add-textdomain-0-result.php:8
+#: t/data/add-textdomain-0.php:7 t/data/add-textdomain-0.php:8
+msgctxt "Testing"
+msgid "Hello World"
+msgstr ""
+
+#: t/data/add-textdomain-0-result.php:10
+msgctxt "test-domain"
+msgid "Hello World Noop"
+msgid_plural "Testing"
+msgstr[0] ""
+msgstr[1] ""
+
+#: t/data/add-textdomain-0-result.php:11 t/data/add-textdomain-0-result.php:13
+#: t/data/add-textdomain-0.php:11 t/data/add-textdomain-0.php:13
+msgid "Attribute"
+msgstr ""
+
+#: t/data/add-textdomain-0-result.php:12 t/data/add-textdomain-0-result.php:14
+#: t/data/add-textdomain-0.php:12 t/data/add-textdomain-0.php:14
+msgid "HTML"
+msgstr ""
+
+#: t/data/add-textdomain-0-result.php:15 t/data/add-textdomain-0.php:15
+msgctxt "Testing"
+msgid "Attribute"
+msgstr ""
+
+#: t/data/add-textdomain-0-result.php:16 t/data/add-textdomain-0.php:16
+msgctxt "Testing"
+msgid "HTML"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "ONIX Book Manager for WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add book product type, manage book metadata and export to ONIX 3.1 format."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Hans Henrik Juhl"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://kopula.dk"
+msgstr ""

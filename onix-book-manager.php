@@ -13,8 +13,8 @@
  * Requires Plugins: woocommerce
  * WC requires at least: 10.5.0
  * WC tested up to: 10.5.0
- * Licence: GPLv3
- * Licence URI: https://www.gnu.org/licenses/gpl-3.0.html
+ * License: GPLv3
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -54,19 +54,21 @@ function obm_init_plugin() {
 		return;
 	}
 
-	// Include the Product Logic (Tabs, Types, Metadata).
-	if ( file_exists( OBM_PATH . 'includes/class-obm-product.php' ) ) {
-		require_once OBM_PATH . 'includes/class-obm-product.php';
-	}
+	// Load all plugin components.
+	$includes = array(
+		'class-obm-product.php',        // Core 'book' product type registration.
+		'class-obm-product-admin.php',  // Admin-facing UI for the book product type.
+		'class-obm-product-frontend.php', // Frontend display for the book product type.
+		'class-obm-thema.php',          // Thema subject code handler.
+		'class-obm-admin.php',          // General plugin admin pages and settings.
+		'class-obm-export.php',         // ONIX XML export logic.
+	);
 
-	// Include Admin Settings / Menu logic.
-	if ( file_exists( OBM_PATH . 'includes/class-obm-admin.php' ) ) {
-		require_once OBM_PATH . 'includes/class-obm-admin.php';
-	}
-
-	// Include Export Logic.
-	if ( file_exists( OBM_PATH . 'includes/class-obm-export.php' ) ) {
-		require_once OBM_PATH . 'includes/class-obm-export.php';
+	foreach ( $includes as $file ) {
+		$path = OBM_PATH . 'includes/' . $file;
+		if ( file_exists( $path ) ) {
+			require_once $path;
+		}
 	}
 }
 

@@ -5,83 +5,170 @@ msgstr ""
 "Language: da_DK\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-02-04 14:35+0000\n"
+"PO-Revision-Date: 2026-02-09 16:22+0000\n"
+"Language-Team: Dansk\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/"
 
-msgid "ONIX Book Manager requires WooCommerce to be installed and active."
-msgstr "ONIX Book Manager kræver at WooCommerce er installeret og aktivt."
+#: includes/views/admin-export-view.php:62
+msgctxt "%d is amount of books ready for export"
+msgid "Items ready for export: %d"
+msgstr "Varer som er klar til eksport"
 
-msgid "Book (Multi-Format)"
-msgstr "Bog (Flere formater)"
-
-msgid "Book Metadata"
-msgstr "Bog-metadata"
-
-msgid "ISBN-13"
-msgstr "ISBN-13"
-
-msgid "Will sync to SKU automatically."
-msgstr "Synkroniseres automatisk til SKU."
-
-msgid "Publisher Name"
-msgstr "Forlagsnavn"
-
-msgid "Thema Code"
-msgstr "Thema-kode"
-
-msgid "BIC Code"
-msgstr "BIC-kode"
-
-msgid "ONIX Export"
-msgstr "ONIX-eksport"
-
-msgid "Missing ISBN/SKU."
-msgstr "Mangler ISBN/SKU."
-
-msgid "Missing \"Format\" attribute."
-msgstr "Mangler \"Format\" attribut."
-
-msgid "Missing \"Filformat\" (EPUB/PDF)."
-msgstr "Mangler \"Filformat\" (EPUB/PDF)."
-
-msgid "Export as ONIX"
-msgstr "Eksporter som ONIX"
-
-msgid "Last exported:"
-msgstr "Sidst eksporteret:"
-
-msgid "Inherited from ISBN"
-msgstr "Nedarvet fra ISBN"
-
-msgid "ONIX Export Manager"
-msgstr "Administration af ONIX-eksport"
-
-msgid "Title & Format"
-msgstr "Titel & Format"
-
-msgid "ISBN / SKU"
-msgstr "ISBN / SKU"
-
-msgid "Validation"
-msgstr "Validering"
-
+#: includes/views/admin-export-view.php:17
 msgid "Actions"
 msgstr "Handlinger"
 
-msgid "Valid"
-msgstr "Valideret"
+#. Description of the plugin
+msgid ""
+"Add book product type, manage book metadata and export to ONIX 3.1 format."
+msgstr ""
 
-msgid "Edit"
-msgstr "Rediger"
+#: includes/class-obm-product.php:216
+msgid "Book (Multi-Format)"
+msgstr "Bog (Flere formater)"
 
-msgid "No books found."
-msgstr "Ingen bøger fundet."
+#: includes/class-obm-product.php:314
+msgid "Book Metadata"
+msgstr "Bogens metadata"
 
+#: includes/class-obm-product.php:347
+msgid "Browse Thema Categories"
+msgstr "Gennemse Thema-kategorier"
+
+#: includes/views/admin-export-view.php:61
 msgid "Bulk Export"
 msgstr "Samlet eksport"
 
-#, php-format
-msgid "Items ready for export: %d"
-msgstr "Antal emner klar til eksport: %d"
+#: includes/views/admin-export-view.php:65
+#| msgid "Download Full ONIX 3.0 Feed"
+msgid "Download Full ONIX Feed"
+msgstr "Hent komplet ONIX-feed"
 
-msgid "Download Full ONIX 3.0 Feed"
-msgstr "Download komplet ONIX 3.0 feed"
+#: includes/class-obm-product.php:161
+msgid "Download ONIX XML"
+msgstr "Hent ONIX XML"
+
+#: includes/class-obm-product.php:207
+msgid "E-book"
+msgstr "E-bog"
+
+#: includes/views/admin-export-view.php:49
+msgid "Edit"
+msgstr "Rediger"
+
+#: includes/class-obm-admin.php:64 includes/class-obm-product.php:247
+msgid "Export as ONIX"
+msgstr "Eksporter som ONIX"
+
+#: includes/class-obm-product.php:167
+msgid "Export failed: Missing ISBN/SKU."
+msgstr ""
+
+#. Author of the plugin
+msgid "Hans Henrik Juhl"
+msgstr ""
+
+#: includes/class-obm-product.php:207
+msgid "Hardback"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://kopula.dk"
+msgstr ""
+
+#: includes/class-obm-product.php:277
+msgid "Inherited from book metadata tab"
+msgstr ""
+
+#: includes/class-obm-product.php:98 includes/views/admin-export-view.php:15
+msgid "ISBN"
+msgstr "ISBN"
+
+#: includes/class-obm-product.php:331
+msgid "ISBN-13"
+msgstr "ISBN-13"
+
+#: includes/class-obm-admin.php:53
+msgid "Missing \"Forfatter\" attribute."
+msgstr "Mangler \"Forfatter\"-egenskab."
+
+#: includes/class-obm-admin.php:47
+msgid "Missing \"Format\" attribute."
+msgstr "Mangler \"Format\"-egenskab."
+
+#: includes/class-obm-admin.php:41
+msgid "Missing ISBN/SKU."
+msgstr "Mangler ISBN/SKU."
+
+#: includes/views/admin-export-view.php:55
+msgid "No books found."
+msgstr "Ingen bøger fundet."
+
+#: includes/class-obm-product.php:368
+msgid "Note: »Author« and »Format« is set using the Attributes panel"
+msgstr ""
+
+#: includes/class-obm-product.php:363
+msgid "Number of Pages"
+msgstr ""
+
+#: includes/class-obm-product.php:326
+msgid "ONIX Bibliographic Data"
+msgstr ""
+
+#. Name of the plugin
+msgid "ONIX Book Manager for WooCommerce"
+msgstr "ONIX Book Manager for WooCommerce"
+
+#: includes/class-obm-admin.php:13 includes/class-obm-admin.php:14
+msgid "ONIX Export"
+msgstr "ONIX-eksport"
+
+#: includes/views/admin-export-view.php:9
+msgid "ONIX Export Manager"
+msgstr "Administration af ONIX-eksport"
+
+#: includes/class-obm-product.php:160
+msgid "ONIX XML Export for this variant"
+msgstr ""
+
+#: includes/class-obm-product.php:110
+msgid "Page Count"
+msgstr "Sideantal"
+
+#: includes/class-obm-product.php:207
+msgid "Paperback"
+msgstr "Paperback"
+
+#: includes/class-obm-product.php:106 includes/class-obm-product.php:355
+msgid "Publication Date"
+msgstr ""
+
+#: includes/class-obm-product.php:102 includes/class-obm-product.php:337
+msgid "Publisher"
+msgstr "Udgiver"
+
+#: includes/class-obm-product.php:114
+msgid "Thema Category"
+msgstr ""
+
+#: includes/class-obm-product.php:346
+msgid "Thema Code"
+msgstr "Thema-kode"
+
+#: includes/views/admin-export-view.php:14
+msgid "Title & Format"
+msgstr "Titel & Format"
+
+#: includes/views/admin-export-view.php:41
+msgid "Valid"
+msgstr "Valideret"
+
+#: includes/views/admin-export-view.php:16
+msgid "Validation"
+msgstr "Validering"
+
+#: includes/class-obm-export.php:16
+msgid "You do not have permission to export data."
+msgstr ""

@@ -59,7 +59,9 @@ $ready_count = 0;
 
     <div class="obm-bulk-box">
         <h2><?php esc_html_e( 'Bulk Export', 'onix-book-manager' ); ?></h2>
-        <p><?php printf( esc_html_x( 'Items ready for export: %d', '%d is amount of books ready for export', 'onix-book-manager' ), esc_html($ready_count )); ?></p>
+        <p><?php
+        /* translators: 1: %d is amount of books ready for export */
+        printf( esc_html_x( 'Items ready for export: %d', '%d is amount of books ready for export', 'onix-book-manager' ), esc_html($ready_count )); ?></p>
         <a href="<?php echo esc_url(admin_url( 'tools.php?page=onix-export&action=download_onix' )); ?>"
            class="button button-primary button-large <?php echo ($ready_count === 0) ? 'disabled' : ''; ?>">
             <?php esc_html_e( 'Download Full ONIX Feed', 'onix-book-manager' ); ?>
